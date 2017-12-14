@@ -1,0 +1,43 @@
+body{
+	background: url('../img/bng.jpg');
+}
+.wrapper{
+	margin: auto;
+	top:35%;
+	left:20%;
+	height:30%;
+	width:60%;
+	background: rgba(100,100,100,0.8);
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;
+}
+h1{
+	font-size: 60px;
+	font-family: 'Bangers', cursive;
+	/*position: absolute;*/
+	margin: none;
+	margin-top:8%;
+}
+button{
+	border-radius: 5px;
+	border:none;
+	outline: none;
+	background: black;
+	text-decoration: none;
+	padding: 15px 80px;
+	font-size: 20px;
+	transition: 1s all;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+button:hover{
+	background: white;
+}
+
+button:hover a{
+	color:black;
+}
+
